@@ -68,7 +68,7 @@ class WeatherScreen extends ConsumerWidget {
                             ),
                             SizedBox(height: 10.h),
                             Text(
-                              "Tempertaure: ${data['weatherDetails'].temperature}",
+                              "Tempertaure: ${data['weatherDetails'].temp}",
                               style: TextStyle(
                                 fontSize: 14.sp,
                                 fontWeight: FontWeight.w300,

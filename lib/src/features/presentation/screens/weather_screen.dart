@@ -58,6 +58,30 @@ class WeatherScreen extends ConsumerWidget {
                                 fontWeight: FontWeight.w300,
                               ),
                             ),
+                            SizedBox(height: 10.h),
+                            Text(
+                              "Humidity: ${data['weatherDetails'].humidity}",
+                              style: TextStyle(
+                                fontSize: 14.sp,
+                                fontWeight: FontWeight.w300,
+                              ),
+                            ),
+                            SizedBox(height: 10.h),
+                            Text(
+                              "Tempertaure: ${data['weatherDetails'].temperature}",
+                              style: TextStyle(
+                                fontSize: 14.sp,
+                                fontWeight: FontWeight.w300,
+                              ),
+                            ),
+                            SizedBox(height: 10.h),
+                            Text(
+                              "Pressure: ${data['weatherDetails'].pressure}",
+                              style: TextStyle(
+                                fontSize: 14.sp,
+                                fontWeight: FontWeight.w300,
+                              ),
+                            ),
                           ],
                         ),
             ],

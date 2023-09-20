@@ -30,6 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
         .listen((ConnectivityResult result) async {
       isDeviceConnected = await InternetConnectionChecker().hasConnection;
       if (!isDeviceConnected && isAlertSet == false) {
+        showDialogBox();
         setState(() {
           isAlertSet = true;
         });

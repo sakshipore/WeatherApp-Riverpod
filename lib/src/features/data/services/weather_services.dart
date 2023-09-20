@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:dio/dio.dart';
 
 import '../../../utils/app_utils.dart';
@@ -12,7 +10,7 @@ class WeatherService {
       Uri.parse(url),
     );
     // log(response.data.toString());
-    
+
     return response.data;
   }
 }
